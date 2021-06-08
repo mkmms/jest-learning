@@ -25,7 +25,7 @@ const SummaryForm = () => {
           <label htmlFor="terms">
             I accept the
             <OverlayTrigger placement="right" overlay={popover}>
-              <a>terms and conditions</a>
+              <span>terms and conditions</span>
             </OverlayTrigger>
           </label>
           <button disabled={disabled}>Confirm Order</button>
